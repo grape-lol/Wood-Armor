@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "${group}",
+        "id": "woodarmor",
+        "version": "${version}",
+        "metadata": {
+            "name": "Wood Armor",
+            "description": "Struggle to get iron armor? No... Well to bad this mod gives you wood armor in case you need it! :D",
+            "contributors": {
+                "Grape": "Owner"
+            },
+            "contact": {},
+            "icon": "assets/woodarmor/icon.png",
+            "license": "CC-BY-NC-SA-4.0"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "entrypoints": {
+            "init": "weird.is.grape.woodarmor.WoodArmor"
+        },
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.26"
+            },
+            {
+                "id": "quilted_fabric_api",
+                "versions": ">=6.0.0-beta.11"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.19.4"
+            }
+        ]
+    },
+    "mixin": "woodarmor.mixins.json"
+}
