@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_log"
+    }
+  },
+  "result": {
+    "item": "woodarmor:darkoak_boots",
+    "count": 1
+  },
+  "group": "darkarmor"
+}

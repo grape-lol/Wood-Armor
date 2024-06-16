@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_stem"
+    }
+  },
+  "result": {
+    "item": "woodarmor:crimson_helmet",
+    "count": 1
+  },
+  "group": "crimsonarmor"
+}

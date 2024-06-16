@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_log"
+    }
+  },
+  "result": {
+    "item": "woodarmor:mangrove_helmet",
+    "count": 1
+  },
+  "group": "mangrovearmor"
+}

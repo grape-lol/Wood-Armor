@@ -2,5 +2,45 @@
   "item.woodarmor.oak_helmet": "Oak Helmet",
   "item.woodarmor.oak_chestplate": "Oak Chestplate",
   "item.woodarmor.oak_leggings": "Oak Leggings",
-  "item.woodarmor.oak_boots": "Oak Boots"
+  "item.woodarmor.oak_boots": "Oak Boots",
+
+  "item.woodarmor.birch_helmet": "Birch Helmet",
+  "item.woodarmor.birch_chestplate": "Birch Chestplate",
+  "item.woodarmor.birch_leggings": "Birch Leggings",
+  "item.woodarmor.birch_boots": "Birch Boots",
+
+  "item.woodarmor.spruce_helmet": "Spruce Helmet",
+  "item.woodarmor.spruce_chestplate": "Spruce Chestplate",
+  "item.woodarmor.spruce_leggings": "Spruce Leggings",
+  "item.woodarmor.spruce_boots": "Spruce Boots",
+
+  "item.woodarmor.crimson_helmet": "Crimson Helmet",
+  "item.woodarmor.crimson_chestplate": "Crimson Chestplate",
+  "item.woodarmor.crimson_leggings": "Crimson Leggings",
+  "item.woodarmor.crimson_boots": "Crimson Boots",
+
+  "item.woodarmor.warped_helmet": "Warped Helmet",
+  "item.woodarmor.warped_chestplate": "Warped Chestplate",
+  "item.woodarmor.warped_leggings": "Warped Leggings",
+  "item.woodarmor.warped_boots": "Warped Boots",
+
+  "item.woodarmor.darkoak_helmet": "Dark Oak Helmet",
+  "item.woodarmor.darkoak_chestplate": "Dark Oak Chestplate",
+  "item.woodarmor.darkoak_leggings": "Dark Oak Leggings",
+  "item.woodarmor.darkoak_boots": "Dark Oak Boots",
+
+  "item.woodarmor.jungle_helmet": "Jungle Helmet",
+  "item.woodarmor.jungle_chestplate": "Jungle Chestplate",
+  "item.woodarmor.jungle_leggings": "Jungle Leggings",
+  "item.woodarmor.jungle_boots": "Jungle Boots",
+
+  "item.woodarmor.mangrove_helmet": "Mangrove Helmet",
+  "item.woodarmor.mangrove_chestplate": "Mangrove Chestplate",
+  "item.woodarmor.mangrove_leggings": "Mangrove Leggings",
+  "item.woodarmor.mangrove_boots": "Mangrove Boots",
+
+  "item.woodarmor.acacia_helmet": "Acacia Helmet",
+  "item.woodarmor.acacia_chestplate": "Acacia Chestplate",
+  "item.woodarmor.acacia_leggings": "Acacia Leggings",
+  "item.woodarmor.acacia_boots": "Acacia Boots"
 }

@@ -18,9 +18,66 @@ public enum CustomArmorMaterials implements ArmorMaterial  {
 	OAK("oak", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
 		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
 		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
-		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 5);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
 		map.put(ArmorItem.ArmorSlot.HELMET, 3);
-	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.OAK_LOG));
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.OAK_LOG
+	)),
+	BIRCH("birch", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.BIRCH_LOG
+	)),
+	SPRUCE("spruce", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.SPRUCE_LOG
+	)),
+	CRIMSON("crimson", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.CRIMSON_STEM
+	)),
+	WARPED("warped", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.WARPED_STEM
+	)),
+	DARKOAK("darkoak", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.DARK_OAK_LOG
+	)),
+	JUNGLE("jungle", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.JUNGLE_LOG
+	)),
+	MANGROVE("mangrove", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.MANGROVE_LOG
+	)),
+	ACACIA("acacia", 8, Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
+		map.put(ArmorItem.ArmorSlot.BOOTS, 1);
+		map.put(ArmorItem.ArmorSlot.LEGGINGS, 3);
+		map.put(ArmorItem.ArmorSlot.CHESTPLATE, 4);
+		map.put(ArmorItem.ArmorSlot.HELMET, 3);
+	}), 15, SoundEvents.ITEM_AXE_STRIP, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.ACACIA_LOG
+	));
 
 	public static final StringIdentifiable.EnumCodec<ArmorMaterials> CODEC = StringIdentifiable.createCodec(ArmorMaterials::values);
 	private static final EnumMap<ArmorItem.ArmorSlot, Integer> BASE_DURABILITY_VALUES = Util.make(new EnumMap(ArmorItem.ArmorSlot.class), map -> {
