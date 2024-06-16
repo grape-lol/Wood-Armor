@@ -32,6 +32,5 @@
                 "versions": ">=1.19.4"
             }
         ]
-    },
-    "mixin": "woodarmor.mixins.json"
+    }
 }
